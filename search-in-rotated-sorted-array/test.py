@@ -29,5 +29,5 @@ def search(nums: list[int], target: int) -> int:
     return -1
 
 
-print('k =', search([4,5,6,7,0,1,2], 0)) # -1
-# print('k =', search([4,5,6,7,0,1,2], 3)) # 4
+# print('k =', search([4,5,6,7,0,1,2], 0)) # 4
+print('k =', search([4,5,6,7,0,1,2], 3)) # -1
